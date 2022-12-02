@@ -1,9 +1,9 @@
-const outputView = require('./OutputView');
+const OutputView = require('./OutputView');
 const InputView = require('./InputView');
 
 class App {
   play() {
-    outputView.gameStart();
+    OutputView.gameStart();
     InputView.getNumber();
   }
 }
