@@ -4,6 +4,7 @@ const InputView = require('./InputView');
 class App {
   play() {
     outputView.gameStart();
+    InputView.getNumber();
   }
 }
 const app = new App();
