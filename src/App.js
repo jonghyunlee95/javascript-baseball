@@ -1,5 +1,10 @@
+const outputView = require('./OutputView');
+const InputView = require('./InputView');
+
 class App {
-  play() {}
+  play() {
+    outputView.gameStart();
+  }
 }
 const app = new App();
 app.play();
