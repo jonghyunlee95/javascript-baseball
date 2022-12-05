@@ -4,7 +4,7 @@ const InputView = require('./InputView');
 class App {
   play() {
     OutputView.gameStart();
-    InputView.getNumber();
+    InputView.generateRandomNumber();
   }
 }
 const app = new App();
